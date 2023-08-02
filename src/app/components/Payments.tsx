@@ -2,14 +2,14 @@
 import Image from "next/image"
 
 export default function Payments() {
-    const paymentsPhone = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690967974/Mercor/payments-phone_1_n6cpgm.svg'
-    const pillarSmall = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690968049/Mercor/payments-pillar-small_xyaczd.svg';
-    const pillarMedium = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690967869/Mercor/payments-pillar-medium_pm4u6b.svg';
-    const pillarMedium00 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690977178/Mercor/payments-pillar-medium00_yespsh.svg';
-    const pillarLarge = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690968022/Mercor/payments-pillar-large_fme6wp.svg';
-    const paymentsColumn01 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690967851/Mercor/payments-column_bjffjn.svg';
+    const paymentsPhone = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690967974/Mercor/payment/payments-phone_1_n6cpgm.svg'
+    const pillarSmall = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690968049/Mercor/payment/payments-pillar-small_xyaczd.svg';
+    const pillarMedium = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690967869/Mercor/payment/payments-pillar-medium_pm4u6b.svg';
+    const pillarMedium00 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690977178/Mercor/payment/payments-pillar-medium00_yespsh.svg';
+    const pillarLarge = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690968022/Mercor/payment/payments-pillar-large_fme6wp.svg';
+    const paymentsColumn01 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690967851/Mercor/payment/payments-column_bjffjn.svg';
     const paymentsColumn02 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690973048/Mercor/payments-column2_q4lkmj.svg';
-    const paymentsColumn03 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690975924/Mercor/payments-column03_nyuagh.png';
+    const paymentsColumn03 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690975924/Mercor/payment/payments-column03_nyuagh.png';
 
     return (
         <div className=" min-h-screen flex flex-col items-center justify-center bg-white text-black relative w-full">

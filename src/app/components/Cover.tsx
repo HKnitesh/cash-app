@@ -9,14 +9,14 @@ export default function Cover() {
         <div className=" bgi    flex lg:min-h-screen  flex-col justify-between pt-5 pb-8  text-white">
             <Nav />
             <Image
-                src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907491/Mercor/intro-cube_1_fvcua7.svg'
+                src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907491/Mercor/cover/intro-cube_1_fvcua7.svg'
                 height={100}
                 width={100}
                 alt="intro-cube_1"
                 className=" md:top-20 lg:left-48 absolute md:w-18 md:h-18 md:left-20   md:block hidden"
             />
             <Image
-                src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907468/Mercor/intro-stairs_1_n79jql.svg'
+                src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907468/Mercor/cover/intro-stairs_1_n79jql.svg'
                 height={100}
                 width={100}
                 alt="intro-stairs_1"
@@ -26,7 +26,7 @@ export default function Cover() {
             <div className="flex flex-col items-center gap-1 uppercase text-center lg:text-13xl md:text-11xl text-8xl font-bold lg:tracking-[1rem] tracking-md lg:leading-lg md:leading-md relative">
                 <span className="z-10">cash</span>
                 <Image
-                    src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907533/Mercor/intro-phone_1_k8myrt.svg'
+                    src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907533/Mercor/cover/intro-phone_1_k8myrt.svg'
                     height={100}
                     width={100}
                     alt="phone"
@@ -35,14 +35,14 @@ export default function Cover() {
                 <span className="z-30">app</span>
             </div>
             <Image
-                src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907564/Mercor/intro-cubes_1_q92ilw.svg'
+                src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907564/Mercor/cover/intro-cubes_1_q92ilw.svg'
                 height={100}
                 width={100}
                 alt="intro-cubes_1"
                 className=" absolute lg:w-44 md:w-56  lg:left-44 md:left-24 bottom-18 md:block hidden"
             />
             <Image
-                src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907595/Mercor/intro-pillar_1_b7vy7s.svg'
+                src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907595/Mercor/cover/intro-pillar_1_b7vy7s.svg'
                 height={100}
                 width={100}
                 alt="pillar"

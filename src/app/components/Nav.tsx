@@ -13,7 +13,7 @@ export default function Nav() {
         <>
             <div className="flex flex-row justify-between items-center w-full lg:px-16 md:px-8 px-5">
                 <Image
-                    src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690898301/Mercor/logo_lzwnuk.svg'
+                    src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690898301/Mercor/cover/logo_lzwnuk.svg'
                     height={43}
                     width={30}
                     alt="$ logo"
@@ -40,7 +40,7 @@ export default function Nav() {
 
 
                 <Image
-                    src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690898736/Mercor/Layer_2_fccqcw.svg'
+                    src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690898736/Mercor/cover/Layer_2_fccqcw.svg'
                     height={36}
                     width={48}
                     alt="eye logo"
@@ -50,7 +50,7 @@ export default function Nav() {
                 />
 
                 <Image
-                    src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690898736/Mercor/Layer_2_fccqcw.svg'
+                    src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690898736/Mercor/cover/Layer_2_fccqcw.svg'
                     height={36}
                     width={48}
                     alt="eye logo"

@@ -6,7 +6,7 @@ import { BsGooglePlay, BsArrowDown, BsTwitch, BsTwitter, BsInstagram } from "rea
 
 export default function Cover() {
     return (
-        <div className=" bgi    flex lg:min-h-screen  flex-col justify-between pt-5 pb-8  text-white">
+        <div className=" bgi flex lg:min-h-screen  flex-col justify-between pt-5 pb-8 text-white">
             <Nav />
             <Image
                 src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690907491/Mercor/cover/intro-cube_1_fvcua7.svg'

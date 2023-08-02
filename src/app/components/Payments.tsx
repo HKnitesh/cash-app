@@ -99,7 +99,7 @@ export default function Payments() {
             />
 
             {/* Payment text */}
-            <div className="flex flex-col lg:w-[22rem] md:w-3/5 mx-5 absolute lg:top-44 lg:left-80 md:top-14 top-4">
+            <div className="flex flex-col lg:w-[22rem] md:w-3/5 mx-5 absolute lg:top-44 lg:left-72 md:top-14 top-4">
                 <h1 className=" text-new_green md:text-[2.5rem] text-4xl font-extrabold ">Payments</h1>
                 <p className=" font-Mulish md:text-base text-sm font-normal tracking-sm">
                     Send and receive money with anyone, donate  to an important cause, or tip professionals.

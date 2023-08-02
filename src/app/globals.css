@@ -6,7 +6,7 @@
 
 
 .bgi{
-  @apply  min-h-screen bg-black bg-cover bg-no-repeat bg-gradient-to-t from-neutral-700 to-zinc-800 lg:bg-[url('https://res.cloudinary.com/drw8eqw3i/image/upload/v1690891801/Mercor/bgline_opuzvb.png')];
+  @apply  min-h-screen bg-black bg-cover bg-no-repeat bg-gradient-to-t from-neutral-700 to-zinc-800 lg:bg-[url('https://res.cloudinary.com/drw8eqw3i/image/upload/v1690891801/Mercor/cover/bgline_opuzvb.png')];
 }
 .store_btn{
   @apply flex flex-row gap-2.5 justify-center items-center md:px-5 md:py-3 px-3 py-2 border border-solid border-white bg-black rounded-lg lg:text-base md:text-sm text-xs font-extrabold leading-5 tracking-md uppercase hover:text-black hover:bg-slate-100 ;

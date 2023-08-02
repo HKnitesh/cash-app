@@ -7,13 +7,16 @@ import { RxCross2 } from "react-icons/rx";
 
 export default function Nav() {
 
+    const dollar = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690898301/Mercor/cover/logo_lzwnuk.svg';
+    const eye = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690898736/Mercor/cover/Layer_2_fccqcw.svg';
+
     const [toggle, setToggle] = useState(false)
 
     return (
         <>
             <div className="flex flex-row justify-between items-center w-full lg:px-16 md:px-8 px-5">
                 <Image
-                    src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690898301/Mercor/cover/logo_lzwnuk.svg'
+                    src={dollar}
                     height={43}
                     width={30}
                     alt="$ logo"
@@ -40,7 +43,7 @@ export default function Nav() {
 
 
                 <Image
-                    src='https://res.cloudinary.com/drw8eqw3i/image/upload/v1690898736/Mercor/cover/Layer_2_fccqcw.svg'
+                    src={eye}
                     height={36}
                     width={48}
                     alt="eye logo"

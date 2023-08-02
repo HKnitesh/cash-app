@@ -5,10 +5,10 @@ export default function Payments() {
     const paymentsPhone = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690967974/Mercor/payment/payments-phone_1_n6cpgm.svg'
     const pillarSmall = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690968049/Mercor/payment/payments-pillar-small_xyaczd.svg';
     const pillarMedium = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690967869/Mercor/payment/payments-pillar-medium_pm4u6b.svg';
-    const pillarMedium00 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690977178/Mercor/payment/payments-pillar-medium00_yespsh.svg';
+    const pillarMedium00 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690989422/Mercor/payment/payments-pillar-medium00_llzitx.svg';
     const pillarLarge = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690968022/Mercor/payment/payments-pillar-large_fme6wp.svg';
     const paymentsColumn01 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690967851/Mercor/payment/payments-column_bjffjn.svg';
-    const paymentsColumn02 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690973048/Mercor/payments-column2_q4lkmj.svg';
+    const paymentsColumn02 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690973048/Mercor/payment/payments-column2_q4lkmj.svg';
     const paymentsColumn03 = 'https://res.cloudinary.com/drw8eqw3i/image/upload/v1690975924/Mercor/payment/payments-column03_nyuagh.png';
 
     return (
@@ -60,8 +60,8 @@ export default function Payments() {
                 src={pillarMedium00}
                 height={100}
                 width={100}
-                alt="pillarMedium02"
-                className="z-10 absolute md:w-40 md:h-60 lg:right-[38.5rem] md:left-28 md:z-20 md:bottom-0 md:block hidden"
+                alt="pillarMedium00"
+                className="z-10 absolute md:w-40 md:h-60 lg:right-[38.5rem]  md:z-20 md:bottom-0 md:block hidden"
             />
             {/* pillar */}
             <Image

@@ -6,7 +6,8 @@
 
 
 .bgi{
-  @apply  min-h-screen bg-black bg-cover bg-no-repeat bg-gradient-to-t from-neutral-700 to-zinc-800 lg:bg-[url('https://res.cloudinary.com/drw8eqw3i/image/upload/v1690891801/Mercor/cover/bgline_opuzvb.png')];
+  @apply  min-h-screen bg-black bg-cover bg-no-repeat bg-center
+  bg-[url('https://res.cloudinary.com/drw8eqw3i/image/upload/v1690891801/Mercor/cover/bgline_opuzvb.png')];
 }
 .store_btn{
   @apply flex flex-row gap-2.5 justify-center items-center md:px-5 md:py-3 px-3 py-2 border border-solid border-white bg-black rounded-lg lg:text-base md:text-sm text-xs font-extrabold leading-5 tracking-md uppercase hover:text-black hover:bg-slate-100 ;
@@ -14,11 +15,24 @@
 .hr_border{
   @apply border border-solid border-black/30 h-0 w-full;
 }
+.bgi-invT{
+  @apply  bg-new_green bg-cover bg-no-repeat bg-top 
+  bg-[url('https://res.cloudinary.com/drw8eqw3i/image/upload/v1691045685/Mercor/investing/UpVector_o6vhmw.svg')];
+}
+.bgi-invB{
+  @apply  bg-white bg-cover bg-no-repeat  bg-top 
+  bg-[url('https://res.cloudinary.com/drw8eqw3i/image/upload/v1691045685/Mercor/investing/down_vector_ewmuwh.svg')];
+}
+.investingStoreBtn{
+  @apply flex flex-row gap-2.5 justify-center items-center md:px-5 md:py-3 px-3 py-2 border border-solid text-black border-black bg-white rounded-lg lg:text-base md:text-sm text-xs font-extrabold leading-5 tracking-md uppercase hover:text-white hover:bg-slate-800 ;
+}
 @tailwind utilities;
 
 body{
   color: #fff;
 }
+
+
 
 @font-face {
   font-family: agrandir;
